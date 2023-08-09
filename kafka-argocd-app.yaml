@@ -11,7 +11,7 @@ spec:
     path: kafka
   destination:
     server: https://kubernetes.default.svc
-    namespace: kafka
+    namespace: default
 
   syncPolicy:
     syncOptions: 
