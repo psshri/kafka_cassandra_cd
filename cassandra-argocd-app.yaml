@@ -11,7 +11,7 @@ spec:
     path: cassandra
   destination:
     server: https://kubernetes.default.svc
-    namespace: cassandra
+    namespace: default
 
   syncPolicy:
     syncOptions: 
