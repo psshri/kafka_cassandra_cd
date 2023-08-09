@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/psshri/kafka_cassandra_cd.git
     targetRevision: HEAD
-    path: nginx-chart
+    path: kafka
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
