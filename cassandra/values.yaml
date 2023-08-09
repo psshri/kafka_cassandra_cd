@@ -177,13 +177,13 @@ jvm:
   ## - calculate 1/4 ram and cap to 8192MB
   ## - pick the max
   ##
-  maxHeapSize: 1G
+  # maxHeapSize: 1G
   ## newHeapSize:
   ## A good guideline is 100 MB per CPU core.
   ## - min(100 * num_cores, 1/4 * heap size)
   ## ref: https://docs.datastax.com/en/archived/cassandra/2.0/cassandra/operations/ops_tune_jvm_c.html
   ##
-  newHeapSize: 800M
+  # newHeapSize: 800M
 ## @param command Command for running the container (set to default if not set). Use array form
 ##
 command: []
