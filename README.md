@@ -1,1 +1,1 @@
-# kafka_cassandra_cicd
+# kafka_cassandra_cd
