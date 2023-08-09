@@ -11,7 +11,7 @@ spec:
     path: nginx-chart
   destination:
     server: https://kubernetes.default.svc
-    namespace: test
+    namespace: test1
 
   syncPolicy:
     syncOptions: 
