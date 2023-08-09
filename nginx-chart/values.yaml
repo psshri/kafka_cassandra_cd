@@ -1,6 +1,6 @@
 replicaCount: 3
 
-namespace: test1
+namespace: dev
 
 image:
   repository: nginx
