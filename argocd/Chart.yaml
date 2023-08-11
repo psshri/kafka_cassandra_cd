@@ -1,0 +1,4 @@
+apiVersion: v2
+name: myargocdapp
+description: A Helm chart for deploying Kafka and Cassandra applications
+version: 0.1.0

@@ -6,8 +6,7 @@ metadata:
 spec: 
   project: default
   source:
-    repoURL: https://github.com/psshri/kafka_cassandra_cd.git
-    # repoURL: https://USERNAME:TOKEN@github.com/psshri/kafka_cassandra_cd.git
+    repoURL: https://{{ .Values.github.username }}:{{ .Values.github.token }}@github.com/psshri/kafka_cassandra_cd.git
     targetRevision: HEAD
     path: cassandra
   destination:

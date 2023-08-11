@@ -1,15 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cassandra-application
+  name: kafka-application
   namespace: argocd
 spec: 
   project: default
   source:
-    repoURL: https://github.com/psshri/kafka_cassandra_cd.git
-    # repoURL: https://USERNAME:TOKEN@github.com/psshri/kafka_cassandra_cd.git
+    repoURL: https://{{ .Values.github.username }}:{{ .Values.github.token }}@github.com/psshri/kafka_cassandra_cd.git
     targetRevision: HEAD
-    path: cassandra
+    path: kafka
   destination:
     server: https://kubernetes.default.svc
     namespace: default
