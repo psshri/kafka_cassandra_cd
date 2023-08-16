@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cassandra-application
+  name: cassandra-application-dev
   namespace: argocd
 spec: 
   project: default
