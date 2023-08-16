@@ -8,11 +8,11 @@ spec:
   source:
     repoURL: https://github.com/psshri/kafka_cassandra_cd.git
     # repoURL: https://USERNAME:TOKEN@github.com/psshri/kafka_cassandra_cd.git
-    targetRevision: main
+    targetRevision: prod
     path: kafka
   destination:
     server: https://kubernetes.default.svc
-    namespace: kafka-dev
+    namespace: kafka-prod
 
   syncPolicy:
     syncOptions: 
